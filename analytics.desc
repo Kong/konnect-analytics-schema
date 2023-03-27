@@ -1,0 +1,130 @@
+
+Ñ
+"kong/model/analytics/payload.protokong.model.analytics"D
+Payload9
+data (2%.kong.model.analytics.RequestMetadataRdata"í
+RequestMetadata
+	client_ip (	RclientIp
+
+started_at (R	startedAt>
+upstream (2".kong.model.analytics.UpstreamInfoRupstream;
+request (2!.kong.model.analytics.RequestInfoRrequest>
+response (2".kong.model.analytics.ResponseInfoRresponse5
+route (2.kong.model.analytics.RouteInfoRroute;
+service (2!.kong.model.analytics.ServiceInfoRservice?
+	latencies (2!.kong.model.analytics.LatencyInfoR	latencies8
+tries	 (2".kong.model.analytics.BalancerInfoRtries>
+consumer
+ (2".kong.model.analytics.ConsumerInfoRconsumer2
+auth (2.kong.model.analytics.AuthInfoRauth"ª
+RequestInfo*
+header_user_agent (	RheaderUserAgent
+header_host (	R
+headerHost
+http_method (R
+httpMethod
+	body_size (RbodySize
+uri (	Ruri"Ù
+ResponseInfo
+http_status (R
+httpStatus
+	body_size (RbodySize2
+header_content_length (RheaderContentLength.
+header_content_type (	RheaderContentType4
+header_ratelimit_limit (RheaderRatelimitLimit<
+header_ratelimit_remaining (RheaderRatelimitRemaining4
+header_ratelimit_reset (RheaderRatelimitReset,
+header_retry_after (RheaderRetryAfterD
+header_x_ratelimit_limit_second	 (RheaderXRatelimitLimitSecondD
+header_x_ratelimit_limit_minute
+ (RheaderXRatelimitLimitMinute@
+header_x_ratelimit_limit_hour (RheaderXRatelimitLimitHour>
+header_x_ratelimit_limit_day (RheaderXRatelimitLimitDayB
+header_x_ratelimit_limit_month (RheaderXRatelimitLimitMonth@
+header_x_ratelimit_limit_year (RheaderXRatelimitLimitYearL
+#header_x_ratelimit_remaining_second (RheaderXRatelimitRemainingSecondL
+#header_x_ratelimit_remaining_minute (RheaderXRatelimitRemainingMinuteH
+!header_x_ratelimit_remaining_hour (RheaderXRatelimitRemainingHourF
+ header_x_ratelimit_remaining_day (RheaderXRatelimitRemainingDayJ
+"header_x_ratelimit_remaining_month (RheaderXRatelimitRemainingMonthH
+!header_x_ratelimit_remaining_year (RheaderXRatelimitRemainingYear+
+ratelimit_enabled (RratelimitEnabled8
+ratelimit_enabled_second (RratelimitEnabledSecond8
+ratelimit_enabled_minute (RratelimitEnabledMinute4
+ratelimit_enabled_hour (RratelimitEnabledHour2
+ratelimit_enabled_day (RratelimitEnabledDay6
+ratelimit_enabled_month (RratelimitEnabledMonth4
+ratelimit_enabled_year (RratelimitEnabledYear"/
+	RouteInfo
+id (	Rid
+name (	Rname"a
+ServiceInfo
+id (	Rid
+name (	Rname
+port (Rport
+protocol (	Rprotocol"Ž
+LatencyInfo&
+kong_gateway_ms (RkongGatewayMs
+upstream_ms (R
+upstreamMs
+response_ms (R
+responseMs5
+invalid_kong_gateway_ms (RinvalidKongGatewayMs.
+invalid_upstream_ms (RinvalidUpstreamMs.
+invalid_response_ms (RinvalidResponseMs"]
+BalancerInfo)
+balancer_latency (RbalancerLatency
+ip (	Rip
+port (Rport"
+ConsumerInfo
+id (	Rid".
+AuthInfo
+id (	Rid
+type (	Rtype"1
+UpstreamInfo!
+upstream_uri (	RupstreamUriBGZEgithub.com/kong/koko/internal/gen/wrpc/kong/model/analytics;analyticsbproto3
+…
+(kong/model/analytics/payload_kafka.protokong.model.analytics"kong/model/analytics/payload.proto"”
+KafkaPayloadCollection>
+messages (2".kong.model.analytics.KafkaPayloadRmessages(
+runtime_group_id (	RruntimeGroupId
+env (	Renv"£
+KafkaPayload
+	client_ip (	RclientIp
+
+started_at (R	startedAt>
+upstream (2".kong.model.analytics.UpstreamInfoRupstreamC
+request (2).kong.model.analytics.RequestInfoInternalRrequest>
+response (2".kong.model.analytics.ResponseInfoRresponse5
+route (2.kong.model.analytics.RouteInfoRroute;
+service (2!.kong.model.analytics.ServiceInfoRservice?
+	latencies (2!.kong.model.analytics.LatencyInfoR	latencies8
+tries	 (2".kong.model.analytics.BalancerInfoRtries>
+consumer
+ (2".kong.model.analytics.ConsumerInfoRconsumer2
+auth (2.kong.model.analytics.AuthInfoRauth(
+runtime_group_id (	RruntimeGroupId
+env (	Renv
+version (	Rversion
+node_id (	RnodeId
+count (Rcount'
+organization_id (	RorganizationId%
+application_id (	RapplicationId,
+service_version_id (	RserviceVersionId,
+service_package_id (	RservicePackageId"²
+RequestInfoInternal*
+header_user_agent (	RheaderUserAgent
+header_host (	R
+headerHost
+http_method (	R
+httpMethod
+	body_size (RbodySize
+uri (	Ruri"Û
+KongCounters
+at (Rat
+env (	Renv
+node_id (	RnodeId#
+request_count (RrequestCount(
+runtime_group_id (	RruntimeGroupId
+version (	Rversion'
+organization_id (	RorganizationIdBGZEgithub.com/kong/koko/internal/gen/wrpc/kong/model/analytics;analyticsbproto3
