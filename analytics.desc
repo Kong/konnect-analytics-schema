@@ -107,7 +107,7 @@ started_at (R	startedAt>
 env (	Renv
 version (	Rversion
 node_id (	RnodeId
-count (Rcount'
+count (Rcount'
 organization_id (	RorganizationId%
 application_id (	RapplicationId,
 service_version_id (	RserviceVersionId,
